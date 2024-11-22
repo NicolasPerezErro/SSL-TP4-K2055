@@ -1,0 +1,9 @@
+2) Analizar cómo funciona el análisis de cada uno de los errores expresando con sus palabras porque se produce el error, no relatando las líneas del código sino con lenguaje natural.
+
+
+b) Primero el programa va leyendo caracter por caracter y se encuentra con la palabra reservada inicio. Como inicio es un token válido, lo devuelve al Parser y continúa leyendo los siguientes caracteres. Se encuentra con $1 que no machea con ninguna de las expresiones regulares definidas en el Scanner. Entonces podemos decir que $ no es un carácter válido porque se encuentra fuera del conjunto aceptado por el lenguaje y por lo tanto se reporta como un error léxico.
+
+c) En este caso luego de la palabra reservada inicio se espera una lista de sentencias del tipo asignación, lectura o escritura, pero a; no es una 
+
+
+d) Si bien en el siguiente programa no existe error léxico y sintáctico, el identificador c no se encuentra declarado en el código. El compilador va a detectar que ese identificador no existe en la tabla de símbolos y lo reporta como error semántico.
