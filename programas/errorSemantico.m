@@ -1,4 +1,3 @@
 inicio
-    leer (a, b);
-    escribir (c);
+    abcdefghijklmnopqrstuvwxyz1234567890 := 1;
 fin
